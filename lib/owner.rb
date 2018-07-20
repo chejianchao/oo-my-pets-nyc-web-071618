@@ -63,8 +63,9 @@ class Owner
   end
   
   def list_pets
+    ans = "I have "
      @pets.map{|key,pets|
-       "I have #{pets.size} #{key[0..3]}"
+      ans
      } 
   end
   
